@@ -34,7 +34,6 @@ TestObject.add(
 );
 
 //***** Note, this is also nessary !!!  Start *****//
-
 var mongoose = keystone.mongoose;
     var schemaPaths = new mongoose.Schema({
         a:       String,
@@ -47,8 +46,8 @@ var mongoose = keystone.mongoose;
 TestObject.schema.add({
     mySubObjectList: { type: [schemaPaths] }
 });
-
 //***** Note, this is also nessary !!!  End *****//
+
 
 /** 
 	Registration
