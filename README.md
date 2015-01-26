@@ -2,9 +2,9 @@
 
 As people are discussing about keystone issue 153 (https://github.com/keystonejs/keystone/issues/153), Keystonejs users expect to have a sub-collection or sub object list/array.
 
-Mongodb is a new database, which does not like traditional database. We can put sub-object and sub-collection(sub-array) into a table(to avoid confuse you I will keep calling mongodb collections as table). However Keystonejs does not support that, Keystonejs still suggest to use reference to another table.
+Mongodb is a new database, which does not like traditional database. We can put sub-object and sub-collection(sub-array) into a table(to avoid confuse you I will keep calling mongodb collections as table). However Keystonejs does not support that, Keystonejs still suggest to use reference to connect to another table.
 
-I have implemented it and the result is:
+But a lot of users want have the functionality. So this post is aiming to explain How to implement sub objectArray in keystonejs.
 
 
 ###Is that what you want? :
@@ -13,7 +13,7 @@ I have implemented it and the result is:
 
 I hope this is what you want!!
 
-###How to use it:
+###How to implement it:
 
 ![kshow](http://3.bp.blogspot.com/-mmEMygKGL3k/VMYIlOpVqZI/AAAAAAAAVUI/qVDYUw9YOTc/s1600/Snip20150126_3.png) 
 
@@ -32,7 +32,7 @@ Put one more dependency into your package.json file:
 
 
 
-###Really the last step:
+###The real last step:
 
 Run:
 ```bash
